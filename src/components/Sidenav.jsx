@@ -5,8 +5,9 @@ import {
   AiOutlineProject,
   AiOutlineMail,
 } from "react-icons/ai";
-import { BsPerson } from "react-icons/bs";
+
 import { GrProjects } from "react-icons/gr";
+import { LiaCertificateSolid } from "react-icons/lia";
 function Sidenav() {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -46,11 +47,11 @@ function Sidenav() {
           </a>
           <a
             onClick={handleNav}
-            href="#main"
+            href="#certificates"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <BsPerson size={20} />
-            <span className="pl-4">Resume</span>
+            <LiaCertificateSolid size={20} />
+            <span className="pl-4">Certificates</span>
           </a>
           <a
             onClick={handleNav}
@@ -85,10 +86,10 @@ function Sidenav() {
             <AiOutlineProject size={20} />
           </a>
           <a
-            href="#main"
+            href="#certificates"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            <BsPerson size={20} />
+            <LiaCertificateSolid size={20} />
           </a>
           <a
             href="#contact"
