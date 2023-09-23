@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import {
   FaTwitter,
@@ -12,7 +12,7 @@ function Main() {
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
-        src="https://images.unsplash.com/photo-1689361806203-41b00e7227b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80"
+        src="https://lh3.googleusercontent.com/pw/AIL4fc_onnAeFLUFytEIQx0VIqEqhNKZYYjfKBTUkkxeBk4szC1aTwyINbAX7LlTW_g0I9AwszeVSk6mfh6Aw0cM5WSehhUsXSmwUFkCTHMxAXpYsFes20zyGAQ1kBDrKQY2j_qlKErmaYiS9HmKTUhwC2F-PefuFqrb07Dgm5yaoBGt_cj1OGyccwtF1kOI3ntzozF-WtKzsMqccFcN0NwfMAWJ6vyKw5cvyOEOI3hCKGqCKFEjs7qoCwpqCkH5QoLwNDQ5L31OcjVNST7PX-Md_ELfJVMFP4oEGpPYmw1iFmckWYTOXriCC7vQWnvpKKuuJZZZZdnlOc5yDdl_c6ioD-EwZ2cWZp4ECaiqT6OfTmr42XMOUK-l3i4CebW54_Vxk7UokLBJ_mskXokgyDxn4DtA0wWNPn-jEje3NO_sqK-y7uKGoseNYIP3EPCA5ljIvA-0_WCt4ptNCMhAyL2z0teaDlZgRRaxqyxr1u94ExeLRqUXYgD5uSVRANRAFTZQhmUX7vWBm_vJ3yBdvNdPPH3L-SN21rzCD4m2YUKVigSVJT4jBfKAI8dPaRk9AUuoCGGSUs6C6pa-Z2krP8WF6QD3sRcaoJFCnediXJvWDoQVy4cEgIFfiPM-FgSR8LLdaFamW3pqnSRHCyUjEsLoUZrUfPpzA7lxTzimmjEgfuz5qgpOBM4fssCQMn8HV2B_iFYv3DfpCpYrNoXrrv3Jy_YOI9AMbGc1Q0rq9ELPqRT6GT3EomUiT7MBK2XdFryLk-qKOQl9c7gCVz3xynTTR2dyF3SYg00XOjOUPxB5q039aY-sF4s1rABdmqO6uBMoYRow7S4PFZUHn9uqLO_k16ZyHNWZkvBYOU6T_AVOoTkUaBD924ra3S9GF9QkuIsHHEjV1m7Y6kCpXJAvIku7XfF9g-U=w1201-h901-s-no?authuser=0"
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
@@ -21,7 +21,7 @@ function Main() {
             I'm Shripal Parikh
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
-            I'm a
+            I am a
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
