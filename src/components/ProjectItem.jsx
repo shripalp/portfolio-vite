@@ -1,22 +1,31 @@
+/* eslint-disable react/prop-types */
 //import React from "react";
 
-function ProjectItem({ img, title }) {
+const ProjectItem = ({ title, description, link, github }) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
-      <img src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
-      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 className="text-2xl font-bold text-white tracking-wider text-center">
-          {title}
-        </h3>
-        <p className="pb-4 pt-2 text-white text-center">React JS</p>
-        <a href="/">
-          <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
-            More Info
-          </p>
-        </a>
-      </div>
-    </div>
+    <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
+      <li className="mb-10 ml-4">
+        <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white" />
+        <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
+          <span className="text-lg font-semibold text-[#oo1b5e]">{title}</span>
+
+          <span className="my-1 text-sm font-normal leading-none text-stone-400">
+            <a href={link} rel="noreferrer" target="_blank">
+              link
+            </a>
+          </span>
+          <span className="my-1 text-sm font-normal leading-none text-stone-400">
+            <a href={github} rel="noreferrer" target="_blank">
+              github
+            </a>
+          </span>
+        </p>
+        <p className="my-2 text-base font-normal text-stone-500">
+          {description}
+        </p>
+      </li>
+    </ol>
   );
-}
+};
 
 export default ProjectItem;
