@@ -9,12 +9,12 @@ const ProjectItem = ({ title, description, link, github }) => {
         <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
           <span className="text-lg font-semibold text-[#oo1b5e]">{title}</span>
 
-          <span className="my-1 text-sm font-normal leading-none text-stone-400">
+          <span className="my-1 text-sm font-normal leading-none text-stone-600 hover:scale-110">
             <a href={link} rel="noreferrer" target="_blank">
               link
             </a>
           </span>
-          <span className="my-1 text-sm font-normal leading-none text-stone-400">
+          <span className="my-1 text-sm font-normal leading-none text-stone-600 hover:scale-110">
             <a href={github} rel="noreferrer" target="_blank">
               github
             </a>

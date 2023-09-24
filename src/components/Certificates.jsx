@@ -1,17 +1,24 @@
 import CertificateItem from "./CertificateItem";
 const data = [
   {
-    title: "HarvardX CS50P: Web Programming with Python and JavaScript",
+    title: "HarvardX CS50x: Introduction to Computer Science",
+    link: "https://courses.edx.org/certificates/560ad8abccb54f7ca8a095f56181aa22",
+    description:
+      "Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python, SQL, and JavaScript plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming.",
+  },
+  {
+    title: "HarvardX CS50P: Introduction to Programming with Python",
     link: "https://courses.edx.org/certificates/67d4691311244bc0898807bd2c8e9a49",
     description:
       "An introduction to programming using a language called Python. Learn how to read and write code as well as how to test and “debug” it. Designed for students with or without prior programming experience who’d like to learn Python specifically. Learn about functions, arguments, and return values (oh my!); variables and types; conditionals and Boolean expressions; and loops. Learn how to handle exceptions, find and fix bugs, and write unit tests; use third-party libraries; validate and extract data with regular expressions; model real-world entities with classes, objects, methods, and properties; and read and write files. Hands-on opportunities for lots of practice. Exercises inspired by real-world programming problems. ",
   },
   {
-    title: "HarvardX CS50: Computer Science for Web Programming",
+    title:
+      "HarvardX: Computer Science for Python Programming Professional Certificate",
     link: "https://courses.edx.org/certificates/560ad8abccb54f7ca8a095f56181aa22",
-    description:
-      "This is CS50x , Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, Python, SQL, and JavaScript plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming.",
+    description: "Pyhton programming professional certificate",
   },
+
   {
     title: "University of Helsinki:  Full Stack Open",
     link: "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/ec95b7318cf7e3b928dd1083ee14a1ee",

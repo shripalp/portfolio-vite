@@ -3,43 +3,45 @@ import ProjectItem from "./ProjectItem";
 const data = [
   {
     title: "Personal Portfolio",
-    description: "My personal portfolio website developed using MERN stack.",
+    description:
+      "My personal portfolio website developed using MERN stack. It has admin panel to update porfolio, data is stored in mongoDb.",
     link: "https://shripal.herokuapp.com/",
-    github: "github.com",
+    github: "https://github.com/shripalp/mern-portfolio",
   },
   {
     title: "Little Lemon Restaurant Website",
     description:
-      "Designed front-end website for Meta Professional Certificate.",
+      "Designed front-end website for Meta Professional Certificate requirement.  Its developed using React and Chakra UI",
     link: "https://littlelemon.herokuapp.com/",
-    github: "github.com",
+    github: "https://github.com/shripalp/littlelemon",
   },
   {
-    title: "Yoga App",
-    description: "My yoga website",
+    title: "The Yoga App",
+    description: "A full stack website developed using express, mongoDB, React",
     link: "https://yogawithshripal.herokuapp.com/",
-    github: "github.com",
+    github: "https://github.com/shripalp/yogaApp",
   },
   {
-    title: "Blog App",
+    title: "The Blogging App",
     description:
-      "Completed as requirement for Full stack program for University of Helsinki. Utilized minimal front end, used mostly back end logic.",
+      "Completed as requirement for Full stack program for University of Helsinki. Utilized minimal front-end, used mostly back-end logic with express/mongoDB",
     link: "https://delicate-morning-2365.fly.dev/",
-    github: "Github",
+    github:
+      "https://github.com/shripalp/fullstackopen/tree/main/part5/bloglist-frontend",
   },
   {
-    title: "PhoneBook App",
+    title: "The PhoneBook App",
     description:
-      "Completed as requirement for Full stack program for University of Helsinki. Utilized minimal front end, used mostly back end logic",
+      "Completed as requirement for Full stack program for University of Helsinki. Utilized minimal front-end, used mostly back-end logic",
     link: "https://patient-pine-8962.fly.dev/",
-    github: "github",
+    github: "https://github.com/shripalp/fullstackopen/tree/main/part3",
   },
   {
     title: "Notes App",
     description:
-      "Compeleted as requirement for full stack open program for university of helsinki",
+      "Compeleted as requirement for full stack open program for University of Helsinki",
     link: "https://young-moon-1448.fly.dev/",
-    github: "github",
+    github: "https://github.com/shripalp/fullstackopen/tree/main/part2",
   },
 ];
 
