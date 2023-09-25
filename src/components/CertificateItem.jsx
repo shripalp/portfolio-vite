@@ -6,7 +6,7 @@ const CertificateItem = ({ title, link, description }) => {
         <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white" />
         <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
           <span className="text-lg font-semibold text-[#oo1b5e]">{title}</span>
-          <span className="my-1 text-sm font-normal leading-none text-stone-400">
+          <span className="my-1 text-sm font-normal leading-none text-stone-600 hover:scale-110">
             <a href={link} rel="noreferrer" target="_blank">
               View Certificate
             </a>

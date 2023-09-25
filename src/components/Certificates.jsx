@@ -1,5 +1,12 @@
 import CertificateItem from "./CertificateItem";
+//import shripalImg from "../assets/shripal.jpg";
+
 const data = [
+  {
+    title: "QA advance with Selenium Automation, Postman API, SQL testing",
+    link: "",
+    description: "Institute of IT Training Canada",
+  },
   {
     title: "HarvardX CS50x: Introduction to Computer Science",
     link: "https://courses.edx.org/certificates/560ad8abccb54f7ca8a095f56181aa22",
@@ -15,7 +22,7 @@ const data = [
   {
     title:
       "HarvardX: Computer Science for Python Programming Professional Certificate",
-    link: "https://courses.edx.org/certificates/560ad8abccb54f7ca8a095f56181aa22",
+    link: "https://credentials.edx.org/credentials/307fffab36494bc7bb9bcf677729de9c",
     description: "Pyhton programming professional certificate",
   },
 

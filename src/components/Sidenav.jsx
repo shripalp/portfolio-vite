@@ -16,6 +16,7 @@ function Sidenav() {
   return (
     <div>
       <AiOutlineMenu
+        size={40}
         onClick={handleNav}
         className="absolute top-4 right-4 z-[99] md:hidden"
       />
