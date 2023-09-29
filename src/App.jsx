@@ -1,19 +1,17 @@
-import Sidenav from "./components/Sidenav";
-import Main from "./components/Main";
-import Work from "./components/Work";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Certificates from "./components/Certificates";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+//import Sidenav from "./components/Sidenav";
 
 function App() {
   return (
     <div>
-      <Sidenav />
-      <Main />
-      <Work />
-      <Projects />
-      <Certificates />
-      <Contact />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

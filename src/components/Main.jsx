@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 function Main() {
   return (
-    <div id="main">
+    <div>
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
         src={shripalImg}
