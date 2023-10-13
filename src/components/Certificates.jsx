@@ -8,6 +8,12 @@ const data = [
     description: "Institute of IT Training Canada",
   },
   {
+    title: "Selenium Webdriver with C# with Nunit Framework",
+    link: "https://udemy-certificate.s3.amazonaws.com/image/UC-a49b6233-d54b-4f46-8496-489a12b99659.jpg",
+    description: "Udemy",
+  },
+
+  {
     title: "HarvardX CS50x: Introduction to Computer Science",
     link: "https://courses.edx.org/certificates/560ad8abccb54f7ca8a095f56181aa22",
     description:
