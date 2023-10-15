@@ -9,6 +9,14 @@ const data = [
     github: "https://github.com/shripalp/mern-portfolio",
   },
   {
+    title: "ai-Summarizer",
+    description:
+      "Site devloped using React/Tailwind CSS and Rapid API. Build too used is Vite JS. ",
+    link: "https://summarizer-shripal.netlify.app/",
+    github: "https://github.com/shripalp/ai-summarizer",
+  },
+
+  {
     title: "Little Lemon Restaurant Website",
     description:
       "Designed front-end website for Meta Professional Certificate requirement.  Its developed using React and Chakra UI",
