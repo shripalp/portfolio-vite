@@ -1,11 +1,10 @@
 import WorkItem from "./WorkItem";
 const data = [
   {
-    year: 2020,
-    title: "QA Analyst",
-    duration: "2 Years",
-    details:
-      "Deserunt proident occaecat sit cillum cupidatat. Nulla ut ea mollit aute reprehenderit. Anim sunt tempor mollit fugiat enim culpa ad fugiat do eiusmod. Officia velit commodo velit occaecat sint laboris ut pariatur labore. Voluptate sit sunt amet dolor quis ad Lorem excepteur minim commodo pariatur tempor eu. Ex laboris sunt ex minim consectetur aute amet ipsum irure esse incididunt. Ipsum ut esse culpa sint ea in ipsum elit exercitation sit pariatur non incididunt.",
+    title: "QA Automation Analyst",
+    duration: "Feb 2023 - current",
+    empliyer: "IOFIT",
+    details: "",
   },
   {
     year: 2021,
