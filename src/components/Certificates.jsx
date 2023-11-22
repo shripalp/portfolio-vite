@@ -4,12 +4,12 @@ import CertificateItem from "./CertificateItem";
 const data = [
   {
     title: "Softwarer Quality Assurance with Jira",
-    link: "",
+    link: "https://photos.app.goo.gl/RAZktmSg3ASantUQ9",
     description: "Institute of IT Training Canada",
   },
   {
     title: "Test Automation with Selenium Webdriver and Postman API Testing",
-    link: "",
+    link: "https://photos.app.goo.gl/Kh4Y7GXMBcBL5rnC9",
     description: "Institute of IT Training Canada",
   },
 
