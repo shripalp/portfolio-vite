@@ -3,10 +3,16 @@ import CertificateItem from "./CertificateItem";
 
 const data = [
   {
-    title: "QA advance with Selenium Automation, Postman API, SQL testing",
+    title: "Softwarer Quality Assurance with Jira",
     link: "",
     description: "Institute of IT Training Canada",
   },
+  {
+    title: "Test Automation with Selenium Webdriver and Postman API Testing",
+    link: "",
+    description: "Institute of IT Training Canada",
+  },
+
   {
     title: "Selenium Webdriver with C# with Nunit Framework",
     link: "https://udemy-certificate.s3.amazonaws.com/image/UC-a49b6233-d54b-4f46-8496-489a12b99659.jpg",
